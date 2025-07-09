@@ -69,4 +69,4 @@ elif st.session_state.page == "WhatsApp" and st.session_state.logged_in:
     show_whatsapp_automation(st.session_state.username)
 else:
     st.session_state.page = "Login"
-    st.experimental_rerun()
+    st.run()
